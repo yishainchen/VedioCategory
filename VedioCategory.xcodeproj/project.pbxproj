@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84DDBFB51B78934E0049C32F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DDBFB41B78934E0049C32F /* main.m */; };
+		84DDBFB81B78934E0049C32F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DDBFB71B78934E0049C32F /* AppDelegate.m */; };
+		84DDBFBB1B78934E0049C32F /* VedioCategory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84DDBFB91B78934E0049C32F /* VedioCategory.xcdatamodeld */; };
+		84DDBFBE1B78934E0049C32F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DDBFBD1B78934E0049C32F /* ViewController.m */; };
+		84DDBFC11B78934E0049C32F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DDBFBF1B78934E0049C32F /* Main.storyboard */; };
+		84DDBFC31B78934E0049C32F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DDBFC21B78934E0049C32F /* Images.xcassets */; };
+		84DDBFC61B78934E0049C32F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DDBFC41B78934E0049C32F /* LaunchScreen.xib */; };
+		84DDBFD21B78934E0049C32F /* VedioCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DDBFD11B78934E0049C32F /* VedioCategoryTests.m */; };
+		84DDBFDC1B789D370049C32F /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84DDBFDB1B789D370049C32F /* beep.mp3 */; };
+		84E7B2841B79B8EC0042EDF4 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E7B2831B79B8EC0042EDF4 /* MediaPlayer.framework */; };
+		84E7B2871B79BF0F0042EDF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E7B2861B79BF0F0042EDF4 /* UIKit.framework */; };
+		84E7B2891B79BF180042EDF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E7B2881B79BF180042EDF4 /* Foundation.framework */; };
+		84E7B28B1B79BF1F0042EDF4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E7B28A1B79BF1F0042EDF4 /* CoreGraphics.framework */; };
+		84E7B28E1B79CE070042EDF4 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E7B28D1B79CE070042EDF4 /* NextViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84DDBFCC1B78934E0049C32F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DDBFA71B78934E0049C32F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DDBFAE1B78934E0049C32F;
+			remoteInfo = VedioCategory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84DDBFAF1B78934E0049C32F /* VedioCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VedioCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DDBFB31B78934E0049C32F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DDBFB41B78934E0049C32F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84DDBFB61B78934E0049C32F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84DDBFB71B78934E0049C32F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84DDBFBA1B78934E0049C32F /* VedioCategory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VedioCategory.xcdatamodel; sourceTree = "<group>"; };
+		84DDBFBC1B78934E0049C32F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84DDBFBD1B78934E0049C32F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84DDBFC01B78934E0049C32F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84DDBFC21B78934E0049C32F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84DDBFC51B78934E0049C32F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84DDBFCB1B78934E0049C32F /* VedioCategoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VedioCategoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DDBFD01B78934E0049C32F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DDBFD11B78934E0049C32F /* VedioCategoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VedioCategoryTests.m; sourceTree = "<group>"; };
+		84DDBFDB1B789D370049C32F /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = beep.mp3; path = ../../../Downloads/QRCodeTest/QRCodeTest/beep.mp3; sourceTree = "<group>"; };
+		84E7B2831B79B8EC0042EDF4 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		84E7B2851B79BC020042EDF4 /* eric.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = eric.mp4; path = ../../../Downloads/eric.mp4; sourceTree = "<group>"; };
+		84E7B2861B79BF0F0042EDF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84E7B2881B79BF180042EDF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84E7B28A1B79BF1F0042EDF4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84E7B28C1B79CE070042EDF4 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NextViewController.h; path = ../NextViewController.h; sourceTree = "<group>"; };
+		84E7B28D1B79CE070042EDF4 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NextViewController.m; path = ../NextViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84DDBFAC1B78934E0049C32F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E7B28B1B79BF1F0042EDF4 /* CoreGraphics.framework in Frameworks */,
+				84E7B2891B79BF180042EDF4 /* Foundation.framework in Frameworks */,
+				84E7B2871B79BF0F0042EDF4 /* UIKit.framework in Frameworks */,
+				84E7B2841B79B8EC0042EDF4 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DDBFC81B78934E0049C32F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84DDBFA61B78934E0049C32F = {
+			isa = PBXGroup;
+			children = (
+				84DDBFB11B78934E0049C32F /* VedioCategory */,
+				84DDBFCE1B78934E0049C32F /* VedioCategoryTests */,
+				84DDBFB01B78934E0049C32F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84DDBFB01B78934E0049C32F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84DDBFAF1B78934E0049C32F /* VedioCategory.app */,
+				84DDBFCB1B78934E0049C32F /* VedioCategoryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84DDBFB11B78934E0049C32F /* VedioCategory */ = {
+			isa = PBXGroup;
+			children = (
+				84DDBFB61B78934E0049C32F /* AppDelegate.h */,
+				84DDBFB71B78934E0049C32F /* AppDelegate.m */,
+				84DDBFBC1B78934E0049C32F /* ViewController.h */,
+				84DDBFBD1B78934E0049C32F /* ViewController.m */,
+				84E7B28C1B79CE070042EDF4 /* NextViewController.h */,
+				84E7B28D1B79CE070042EDF4 /* NextViewController.m */,
+				84E7B2851B79BC020042EDF4 /* eric.mp4 */,
+				84DDBFBF1B78934E0049C32F /* Main.storyboard */,
+				84DDBFDB1B789D370049C32F /* beep.mp3 */,
+				84DDBFC21B78934E0049C32F /* Images.xcassets */,
+				84DDBFC41B78934E0049C32F /* LaunchScreen.xib */,
+				84DDBFB91B78934E0049C32F /* VedioCategory.xcdatamodeld */,
+				84DDBFB21B78934E0049C32F /* Supporting Files */,
+			);
+			path = VedioCategory;
+			sourceTree = "<group>";
+		};
+		84DDBFB21B78934E0049C32F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84E7B28A1B79BF1F0042EDF4 /* CoreGraphics.framework */,
+				84E7B2881B79BF180042EDF4 /* Foundation.framework */,
+				84E7B2861B79BF0F0042EDF4 /* UIKit.framework */,
+				84E7B2831B79B8EC0042EDF4 /* MediaPlayer.framework */,
+				84DDBFB31B78934E0049C32F /* Info.plist */,
+				84DDBFB41B78934E0049C32F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84DDBFCE1B78934E0049C32F /* VedioCategoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				84DDBFD11B78934E0049C32F /* VedioCategoryTests.m */,
+				84DDBFCF1B78934E0049C32F /* Supporting Files */,
+			);
+			path = VedioCategoryTests;
+			sourceTree = "<group>";
+		};
+		84DDBFCF1B78934E0049C32F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84DDBFD01B78934E0049C32F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84DDBFAE1B78934E0049C32F /* VedioCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DDBFD51B78934E0049C32F /* Build configuration list for PBXNativeTarget "VedioCategory" */;
+			buildPhases = (
+				84DDBFAB1B78934E0049C32F /* Sources */,
+				84DDBFAC1B78934E0049C32F /* Frameworks */,
+				84DDBFAD1B78934E0049C32F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VedioCategory;
+			productName = VedioCategory;
+			productReference = 84DDBFAF1B78934E0049C32F /* VedioCategory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84DDBFCA1B78934E0049C32F /* VedioCategoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DDBFD81B78934E0049C32F /* Build configuration list for PBXNativeTarget "VedioCategoryTests" */;
+			buildPhases = (
+				84DDBFC71B78934E0049C32F /* Sources */,
+				84DDBFC81B78934E0049C32F /* Frameworks */,
+				84DDBFC91B78934E0049C32F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DDBFCD1B78934E0049C32F /* PBXTargetDependency */,
+			);
+			name = VedioCategoryTests;
+			productName = VedioCategoryTests;
+			productReference = 84DDBFCB1B78934E0049C32F /* VedioCategoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84DDBFA71B78934E0049C32F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = yishain;
+				TargetAttributes = {
+					84DDBFAE1B78934E0049C32F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					84DDBFCA1B78934E0049C32F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 84DDBFAE1B78934E0049C32F;
+					};
+				};
+			};
+			buildConfigurationList = 84DDBFAA1B78934E0049C32F /* Build configuration list for PBXProject "VedioCategory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84DDBFA61B78934E0049C32F;
+			productRefGroup = 84DDBFB01B78934E0049C32F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84DDBFAE1B78934E0049C32F /* VedioCategory */,
+				84DDBFCA1B78934E0049C32F /* VedioCategoryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84DDBFAD1B78934E0049C32F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DDBFC11B78934E0049C32F /* Main.storyboard in Resources */,
+				84DDBFC61B78934E0049C32F /* LaunchScreen.xib in Resources */,
+				84DDBFDC1B789D370049C32F /* beep.mp3 in Resources */,
+				84DDBFC31B78934E0049C32F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DDBFC91B78934E0049C32F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84DDBFAB1B78934E0049C32F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E7B28E1B79CE070042EDF4 /* NextViewController.m in Sources */,
+				84DDBFBB1B78934E0049C32F /* VedioCategory.xcdatamodeld in Sources */,
+				84DDBFB81B78934E0049C32F /* AppDelegate.m in Sources */,
+				84DDBFBE1B78934E0049C32F /* ViewController.m in Sources */,
+				84DDBFB51B78934E0049C32F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DDBFC71B78934E0049C32F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DDBFD21B78934E0049C32F /* VedioCategoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84DDBFCD1B78934E0049C32F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84DDBFAE1B78934E0049C32F /* VedioCategory */;
+			targetProxy = 84DDBFCC1B78934E0049C32F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84DDBFBF1B78934E0049C32F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DDBFC01B78934E0049C32F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84DDBFC41B78934E0049C32F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DDBFC51B78934E0049C32F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84DDBFD31B78934E0049C32F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84DDBFD41B78934E0049C32F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84DDBFD61B78934E0049C32F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VedioCategory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84DDBFD71B78934E0049C32F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VedioCategory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84DDBFD91B78934E0049C32F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VedioCategoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VedioCategory.app/VedioCategory";
+			};
+			name = Debug;
+		};
+		84DDBFDA1B78934E0049C32F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VedioCategoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VedioCategory.app/VedioCategory";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84DDBFAA1B78934E0049C32F /* Build configuration list for PBXProject "VedioCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DDBFD31B78934E0049C32F /* Debug */,
+				84DDBFD41B78934E0049C32F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DDBFD51B78934E0049C32F /* Build configuration list for PBXNativeTarget "VedioCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DDBFD61B78934E0049C32F /* Debug */,
+				84DDBFD71B78934E0049C32F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DDBFD81B78934E0049C32F /* Build configuration list for PBXNativeTarget "VedioCategoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DDBFD91B78934E0049C32F /* Debug */,
+				84DDBFDA1B78934E0049C32F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84DDBFB91B78934E0049C32F /* VedioCategory.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84DDBFBA1B78934E0049C32F /* VedioCategory.xcdatamodel */,
+			);
+			currentVersion = 84DDBFBA1B78934E0049C32F /* VedioCategory.xcdatamodel */;
+			path = VedioCategory.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84DDBFA71B78934E0049C32F /* Project object */;
+}
